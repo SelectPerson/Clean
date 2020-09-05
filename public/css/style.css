@@ -1,0 +1,74 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.service__img {
+
+  /* width: 360px !important; */
+}
+
+.card .card-image img {
+
+}
+
+.card .card-content .card-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card .card-reveal {
+  /* top: 98%; */
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00923F;
+}
+
+
+
+.img__logo {
+  top: 8px;
+  left: -120px;
+  /* width: 123px;
+  height: 100px; */
+}
+
+.name__logo {
+  /*margin-left: 120px;*/
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.img__logo img {
+  height: 100%;
+  width: 100%;
+}
+
+.color-nav {
+  /* background-color: rgb(1, 133, 60); */
+  background-color: #00923f;
+}
